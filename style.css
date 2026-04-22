@@ -123,10 +123,9 @@ a:hover {
 }
 
 .pub-figure {
-    width: 200px;
+    width: 280px;
     flex-shrink: 0;
     height: auto;
-    align-self: center;
 }
 
 .pub-content {
