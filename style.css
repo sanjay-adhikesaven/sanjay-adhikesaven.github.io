@@ -116,26 +116,20 @@ a:hover {
 }
 
 .publication {
-    display: flex;
-    gap: 1.25rem;
-    align-items: flex-start;
     margin-bottom: 1.5rem;
 }
 
 .pub-figure {
-    width: 180px;
-    flex-shrink: 0;
-    border: 1px solid #e5e5e0;
-    border-radius: 4px;
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin-bottom: 0.6rem;
 }
 
-.pub-content {
-    flex: 1;
-}
-
-.pub-content .authors,
-.pub-content .pub-links,
-.pub-content .pub-note {
+.publication .authors,
+.publication .pub-links,
+.publication .pub-note {
     margin: 0.2rem 0 0;
     font-size: 1rem;
 }
@@ -143,13 +137,4 @@ a:hover {
 .pub-note {
     color: #888;
     font-size: 0.9rem;
-}
-
-@media (max-width: 500px) {
-    .publication {
-        flex-direction: column;
-    }
-    .pub-figure {
-        width: 100%;
-    }
 }
