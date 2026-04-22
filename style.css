@@ -141,6 +141,11 @@ a:hover {
     font-size: 1rem;
 }
 
+.publication .authors {
+    font-size: 0.95rem;
+    color: #555;
+}
+
 .pub-note {
     color: #888;
     font-size: 0.9rem;
