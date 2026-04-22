@@ -33,15 +33,18 @@
         <ul class="publications">
             <li class="publication">
                 <img src="bar_fig1_3exp-1.png" alt="BAR figure" class="pub-figure">
-                <strong>Train Separately, Merge Together: Modular Post-Training with Mixture-of-Experts</strong>
-                <p class="authors">Jacob Morrison*, <strong>Sanjay Adhikesaven</strong>*, Akshita Bhagia, Matei Zaharia, Noah A. Smith, Sewon Min</p>
-                <p class="pub-links">
-                    <a href="https://allenai.org/papers/bar">Paper</a> &middot;
-                    <a href="https://allenai.org/blog/bar">Blog</a> &middot;
-                    <a href="https://huggingface.co/collections/allenai/branch-adapt-route">Hugging Face</a> &middot;
-                    <a href="https://github.com/allenai/FlexOlmo/blob/jacobm-flex-post-train/scripts/BAR/bar_scripts.md">Code</a>
-                </p>
-                <p class="pub-note">* equal contribution</p>
+                <div class="pub-content">
+                    <strong class="pub-title">Train Separately, Merge Together: Modular Post-Training with Mixture-of-Experts</strong>
+                    <p class="authors">Jacob Morrison*, <strong>Sanjay Adhikesaven</strong>*, Akshita Bhagia, Matei Zaharia, Noah A. Smith, Sewon Min</p>
+                    <p class="pub-desc">We present BAR (Branch-Adapt-Route), a recipe for modular post-training. Rather than training a single model on all data at once, BAR trains independent domain experts &ndash; each through its own complete training pipeline &ndash; and composes them into a unified model via a mixture-of-experts (MoE) architecture. Each expert can be developed, upgraded, or replaced without touching the others.</p>
+                    <p class="pub-links">
+                        <a href="https://allenai.org/papers/bar">Paper</a> /
+                        <a href="https://allenai.org/blog/bar">Blog</a> /
+                        <a href="https://huggingface.co/collections/allenai/branch-adapt-route">Hugging Face</a> /
+                        <a href="https://github.com/allenai/FlexOlmo/blob/jacobm-flex-post-train/scripts/BAR/bar_scripts.md">Code</a>
+                    </p>
+                    <p class="pub-note">* equal contribution</p>
+                </div>
             </li>
         </ul>
 
