@@ -114,3 +114,42 @@ a:hover {
     color: #888;
     font-size: 0.95rem;
 }
+
+.publication {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.pub-figure {
+    width: 180px;
+    flex-shrink: 0;
+    border: 1px solid #e5e5e0;
+    border-radius: 4px;
+}
+
+.pub-content {
+    flex: 1;
+}
+
+.pub-content .authors,
+.pub-content .pub-links,
+.pub-content .pub-note {
+    margin: 0.2rem 0 0;
+    font-size: 1rem;
+}
+
+.pub-note {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 500px) {
+    .publication {
+        flex-direction: column;
+    }
+    .pub-figure {
+        width: 100%;
+    }
+}
