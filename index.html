@@ -17,8 +17,7 @@
                 <h1>Sanjay Adhikesaven</h1>
                 <p class="affiliation">University of California, Berkeley</p>
                 <p class="links">
-                    <a href="mailto:sanjay.adhikesaven@berkeley.edu">Email</a> &middot;
-                    <a href="https://github.com/sanjay-adhikesaven">GitHub</a> &middot;
+                    <span class="email">sanjay.adhikesaven [at] berkeley.edu</span> &middot;
                     <a href="https://www.linkedin.com/in/sanjayadhikesaven/">LinkedIn</a> &middot;
                     <a href="https://x.com/sadhikesaven">X</a>
                 </p>
@@ -31,6 +30,23 @@
 
         <h2>Publications</h2>
         <ul class="publications">
+            <li class="publication">
+                <img src="modsleuth.png" alt="ModSleuth dependency graph" class="pub-figure">
+                <div class="pub-content">
+                    <strong class="pub-title">
+                        <span>Which Models Are Our Models Built On?</span>
+                        <span>Auditing Invisible Dependencies in Modern LLMs</span>
+                    </strong>
+                    <p class="authors"><strong>Sanjay Adhikesaven</strong>*, Haoxiang Sun*, Sewon Min</p>
+                    <p class="pub-desc">We introduce ModSleuth, an agentic system that reconstructs the dependency graphs behind modern LLMs from papers, model cards, dataset cards, code, configs, and upstream artifacts. It traces how models are used to generate data, filter corpora, evaluate outputs, and guide training decisions, recovering 1,060 source-verified dependencies across four releases and surfacing license-relevant paths, train-evaluation coupling, and documentation mismatches.</p>
+                    <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2606.12385">Paper</a> /
+                        <a href="https://modsleuth.cal-data-audit.org">Demo</a> /
+                        <a href="https://github.com/cal-data-audit/modsleuth">Code</a>
+                    </p>
+                    <p class="pub-note">* equal contribution</p>
+                </div>
+            </li>
             <li class="publication">
                 <img src="bar_fig1_3exp-1.png" alt="BAR figure" class="pub-figure">
                 <div class="pub-content">
