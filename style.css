@@ -123,32 +123,14 @@ a:hover {
 .pub-figure {
     display: block;
     width: 100%;
-    aspect-ratio: 2600 / 878;
-    height: 243px;
-    object-fit: contain;
-    object-position: center;
+    height: auto;
     margin-bottom: 0.9rem;
 }
 
 .pub-title {
     display: block;
-    width: fit-content;
-    max-width: 40rem;
     font-size: 1.15rem;
-    line-height: 1.35;
-    margin: 1.05rem auto 0.55rem;
-    text-align: center;
-    text-wrap: balance;
-}
-
-.pub-title span {
-    display: block;
-}
-
-@media (max-width: 776px) {
-    .pub-figure {
-        height: calc((100vw - 56px) * 0.3377);
-    }
+    margin-bottom: 0.4rem;
 }
 
 .publication .authors,
