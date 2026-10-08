@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 0.6rem;
     color: #1a1a1a;
@@ -115,6 +115,14 @@ a:hover {
     font-size: 0.95rem;
 }
 
+.experience-details {
+    clear: both;
+    margin: 0.2rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #666;
+}
+
 .publication {
     margin-bottom: 1.75rem;
     line-height: 1.55;
@@ -134,6 +142,7 @@ a:hover {
 }
 
 .publication .authors,
+.publication .pub-venue,
 .publication .pub-desc,
 .publication .pub-links,
 .publication .pub-note {
@@ -141,7 +150,8 @@ a:hover {
     font-size: 1rem;
 }
 
-.publication .authors {
+.publication .authors,
+.publication .pub-venue {
     font-size: 0.95rem;
     color: #555;
 }
